@@ -1,0 +1,13 @@
+- Python is a strongly typed language. This means that every object in the language has a definite type, and there’s generally no way to circumvent that type.
+- Python is dynamically typed, meaning that there’s no type-checking of your code prior to running it.
+- The best description of the Python type system is that it uses duck-typing where an object’s suitability for a context is only determined at runtime.
+- --
+- Pythonic code
+  - simplicity
+  - readability
+  - explicitness
+  - clarity
+- --
+- Readability
+  - use white spaces to make your code readable
+  - 
