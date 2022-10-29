@@ -2,8 +2,8 @@ from urllib.request import urlopen
 
 
 # this fetches the words and returns them as a list
-def fetch_words():
-    with urlopen('http://sixty-north.com/c/t.txt') as story:
+def fetch_words(url):
+    with urlopen(url) as story:
         story_words = []
         for line in story:
             line_words = line.decode('utf-8').split()
@@ -20,7 +20,7 @@ def print_items(items):
 
 def main():
     words = fetch_words()
-    print_words(words)
+    print_items(words)
 
 
 if __name__ == '__main__':
