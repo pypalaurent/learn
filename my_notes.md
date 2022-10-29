@@ -10,4 +10,25 @@
 - --
 - Readability
   - use white spaces to make your code readable
+- --
+- Functions
+  - if you don't have an explicit return in a function, python adds one for you. And the function returns None
+  - During runtime python makes available some special variables and attributes. These attributes delimited by double underscores
+  - __name__ is a special attribute that gives you the name of the module
+- --
+- Modules
+  - Any .py file is considered a python module
+  - Make simpler code importable
   - 
+- --
+- Import
+  - import has any effect the first time you import it in REPL (or any program)
+  - 
+- --
+### Python Execution model
+
+- def isn't a declaration, it's a statement
+- During runtime def is executed with all the top level codes and bind the code body to the function name
+- When modules are executed all the top level codes run (including def)
+- 
+- 
