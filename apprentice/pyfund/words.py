@@ -13,9 +13,9 @@ def fetch_words():
 
 
 # this prints a list of words
-def print_words(story_words):
-    for word in story_words:
-        print(word)
+def print_items(items):
+    for item in items:
+        print(item)
 
 
 def main():
