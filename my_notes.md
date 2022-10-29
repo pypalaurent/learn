@@ -19,7 +19,7 @@
 - Modules
   - Any .py file is considered a python module
   - Make simpler code importable
-  - 
+  - https://stackoverflow.com/questions/419163/what-does-if-name-main-do-in-python
 - --
 - Import
   - import has any effect the first time you import it in REPL (or any program)
