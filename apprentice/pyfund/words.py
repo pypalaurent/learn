@@ -1,4 +1,5 @@
 from urllib.request import urlopen
+import sys
 
 
 # this fetches the words and returns them as a list
@@ -18,10 +19,10 @@ def print_items(items):
         print(item)
 
 
-def main():
-    words = fetch_words()
+def main(url):
+    words = fetch_words(url)
     print_items(words)
 
 
 if __name__ == '__main__':
-    main()
+    main(sys.argv[1])
